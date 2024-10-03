@@ -1,0 +1,69 @@
+﻿@model bus_reservation.Models.BookingViewModel
+
+<div class="ticket-container">
+    <div class="ticket-header">
+        <div class="logo">
+            <img src="~/images/logo.png" alt="Company Logo" />
+        </div>
+        <div class="company-name">
+            <h1>SRC TRAVEL</h1>
+        </div>
+    </div>
+
+    <div class="ticket-details">
+        <h2>Ticket Details</h2>
+        <p><strong>Customer Name:</strong> @Model.CustomerName</p>
+        <p><strong>Customer Age:</strong> @Model.CustomerAge</p>
+        <p><strong>Bus:</strong> @Model.BusCode</p>
+        <p><strong>Seat Number:</strong> @Model.SeatNumber</p>
+        <p><strong>Route:</strong> @Model.RouteName</p>
+        <p><strong>Distance:</strong> @Model.Distance km</p>
+        <p><strong>Total Fare:</strong> @Model.Fare</p>
+        @* <p><strong>Handled By:</strong> @Model.</p> *@
+    </div>
+
+    <div class="ticket-buttons">
+        <button onclick="window.print()">Print Ticket</button>
+        <button id="sendTicketBtn">Send Ticket</button>
+    </div>
+</div>
+
+    <script>
+        // Add your email sending logic here
+        document.getElementById('sendTicketBtn').addEventListener('click', function () {
+            alert('Ticket sent to your email!');
+            // Here you can integrate with your email sending logic
+        });
+    </script>
+
+
+<style>
+    .ticket-container {
+        width: 100%;
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 20px;
+        border: 2px solid #000;
+    }
+    .ticket-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .company-name h1 {
+        text-align: center;
+    }
+    .ticket-details {
+        margin-top: 20px;
+    }
+    .ticket-buttons {
+        margin-top: 20px;
+        text-align: center;
+    }
+    .ticket-buttons button {
+        margin-right: 10px;
+        padding: 10px 20px;
+        font-size: 16px;
+    }
+</style>
+

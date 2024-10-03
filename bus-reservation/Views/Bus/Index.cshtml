@@ -1,0 +1,83 @@
+﻿@model IEnumerable<bus_reservation.Models.Bus>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/AdminLayout.cshtml";
+    int serialNumber = 1;
+    var successCreateMessage = TempData["SuccessCreateMessage"] as string;
+    var successEditMessage = TempData["SuccessEditMessage"] as string;
+}
+
+<div class="container-fluid pt-4 px-4">
+    <h1>Index</h1>
+
+    <p>
+        <a asp-action="Create">Create New</a>
+    </p>
+    @if (!string.IsNullOrEmpty(successCreateMessage))
+    {
+        <div class="alert alert-success alert-dismissible fade show" role="alert">
+            <strong>@successCreateMessage</strong>
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+        </div>
+    }
+    else if (!string.IsNullOrEmpty(successEditMessage))
+    {
+        <div class="alert alert-success alert-dismissible fade show" role="alert">
+            <strong>@successEditMessage</strong>
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+        </div>
+    }
+    <table class="table datatable text-center py-3">
+        <thead>
+            <tr>
+                <th>S.No</th>
+            <th>@Html.DisplayNameFor(model => model.BusNumber)</th>
+            <th>@Html.DisplayNameFor(model => model.TotalSeats)</th>
+            <th>@Html.DisplayNameFor(model => model.AvailableSeats)</th>
+            <th>@Html.DisplayNameFor(model => model.DepartureTime)</th>
+            <th>@Html.DisplayNameFor(model => model.ArrivalTime)</th>
+            <th>@Html.DisplayNameFor(model => model.BusType)</th>
+            <th>@Html.DisplayNameFor(model => model.Route)</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+ @if (Model != null && Model.Any())
+{
+@foreach (var item in Model) {
+        <tr>
+                        <td>@serialNumber</td>
+            <td>@Html.DisplayFor(modelItem => item.BusNumber)</td>
+            <td>@Html.DisplayFor(modelItem => item.TotalSeats)</td>
+            <td>@Html.DisplayFor(modelItem => item.AvailableSeats)</td>
+            <td>@Html.DisplayFor(modelItem => item.DepartureTime)</td>
+            <td>@Html.DisplayFor(modelItem => item.ArrivalTime)</td>
+            <td>@Html.DisplayFor(modelItem => item.BusType.BusTypeName)</td>
+            <td>
+                @if (item.Route != null)
+                {
+                    var startingPlace = item.Route.StartingPlaceNavigation?.LocationName;
+                    var destinationPlace = item.Route.DestinationPlaceNavigation?.LocationName;
+                    var routeDisplay = $"{item.Route.RouteName} ({startingPlace} to {destinationPlace})";
+                    @Html.Raw(routeDisplay)
+                }
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.BusId">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.BusId">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.BusId">Delete</a>
+            </td>
+        </tr>
+                    serialNumber++;
+                }
+            }
+            else
+            {
+                <tr>
+                    <td colspan="9" class="text-center">No Employee Found</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

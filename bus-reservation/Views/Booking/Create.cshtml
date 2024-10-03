@@ -1,0 +1,103 @@
+﻿@model bus_reservation.Models.Booking
+
+@{
+    ViewData["Title"] = "Create";
+    Layout = "~/Views/Shared/AdminLayout.cshtml";
+}
+
+<h1>Create</h1>
+
+<h4>Booking</h4>
+<hr />
+<div class="row">
+    <div class="col-md-12">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="CustomerName" class="control-label"></label>
+                <input asp-for="CustomerName" class="form-control" id="CustomerName" oninput="validateName()" />
+                <span id="nameError" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="CustomerAge" class="control-label"></label>
+                <input asp-for="CustomerAge" class="form-control" id="CustomerAge" oninput="validateAge()" />
+                <span id="ageError" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="CustomerContact" class="control-label"></label>
+                <input asp-for="CustomerContact" class="form-control" id="CustomerContact" oninput="validateContact()" />
+                <span id="contactError" class="text-danger"></span>
+            </div>
+
+
+            <div class="form-group">
+                <label asp-for="CustomerEmail" class="control-label"></label>
+                <input type="email" asp-for="CustomerEmail" class="form-control" />
+                <span asp-validation-for="CustomerEmail" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="BusId" class="control-label"></label>
+                <select asp-for="BusId" class="form-control" asp-items="ViewBag.BusId">
+                    <option value="">-- Select Bus --</option>
+                </select>
+            </div>
+           
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+<script>
+    function validateName() {
+        const name = document.getElementById('CustomerName').value.trim();
+        const nameRegex = /^[A-Za-z\s]+$/;
+        const nameError = document.getElementById('nameError');
+
+        if (!nameRegex.test(name) || name === "") {
+            nameError.innerText = 'Name must contain only letters and spaces.';
+            document.getElementById('CustomerName').classList.add('is-invalid');
+        } else {
+            nameError.innerText = '';
+            document.getElementById('CustomerName').classList.remove('is-invalid');
+            document.getElementById('CustomerName').classList.add('is-valid');
+        }
+    }
+
+    function validateAge() {
+        const age = document.getElementById('CustomerAge').value.trim();
+        const ageError = document.getElementById('ageError');
+
+        if (isNaN(age) || age <= 0) {
+            ageError.innerText = 'Age must be a number greater than 0.';
+            document.getElementById('CustomerAge').classList.add('is-invalid');
+        } else {
+            ageError.innerText = '';
+            document.getElementById('CustomerAge').classList.remove('is-invalid');
+            document.getElementById('CustomerAge').classList.add('is-valid');
+        }
+    }
+
+    function validateContact() {
+        const contact = document.getElementById('CustomerContact').value.trim();
+        const contactRegex = /^0\d{10}$/;
+        const contactError = document.getElementById('contactError');
+
+        if (!contactRegex.test(contact)) {
+            contactError.innerText = 'Contact must be 11 digits and start with 0.';
+            document.getElementById('CustomerContact').classList.add('is-invalid');
+        } else {
+            contactError.innerText = '';
+            document.getElementById('CustomerContact').classList.remove('is-invalid');
+            document.getElementById('CustomerContact').classList.add('is-valid');
+        }
+    }
+</script>
+
+

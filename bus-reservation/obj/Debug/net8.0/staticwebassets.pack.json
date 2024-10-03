@@ -1,0 +1,517 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\cv\\source\\repos\\bus-reservation\\bus-reservation\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\bus-reservation.bundle.scp.css",
+      "PackagePath": "staticwebassets\\bus-reservation.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\cv\\source\\repos\\bus-reservation\\bus-reservation\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\cv\\source\\repos\\bus-reservation\\bus-reservation\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\cv\\source\\repos\\bus-reservation\\bus-reservation\\wwwroot\\images\\660b94fa876ac1712035066.png",
+      "PackagePath": "staticwebassets\\images\\660b94fa876ac1712035066.png"
+    },
+    {
+      "Id": "C:\\Users\\cv\\source\\repos\\bus-reservation\\bus-reservation\\wwwroot\\images\\66868879268741720092793.png",
+      "PackagePath": "staticwebassets\\images\\66868879268741720092793.png"
+    },
+    {
+      "Id": "C:\\Users\\cv\\source\\repos\\bus-reservation\\bus-reservation\\wwwroot\\images\\6686923c85ee71720095292.jpg",
+      "PackagePath": "staticwebassets\\images\\6686923c85ee71720095292.jpg"
+    },
+    {
+      "Id": "C:\\Users\\cv\\source\\repos\\bus-reservation\\bus-reservation\\wwwroot\\images\\66869267d57711720095335.jpg",
+      "PackagePath": "staticwebassets\\images\\66869267d57711720095335.jpg"
+    },
+    {
+      "Id": "C:\\Users\\cv\\source\\repos\\bus-reservation\\bus-reservation\\wwwroot\\images\\66a4c1719ecdc1722073457.png",
+      "PackagePath": "staticwebassets\\images\\66a4c1719ecdc1722073457.png"
+    },
+    {
+      "Id": "C:\\Users\\cv\\source\\repos\\bus-reservation\\bus-reservation\\wwwroot\\images\\66a4c17c264e41722073468.png",
+      "PackagePath": "staticwebassets\\images\\66a4c17c264e41722073468.png"
+    },
+    {
+      "Id": "C:\\Users\\cv\\source\\repos\\bus-reservation\\bus-reservation\\wwwroot\\images\\banner-bg.png",
+      "PackagePath": "staticwebassets\\images\\banner-bg.png"
+    },
+    {
+      "Id": "C:\\Users\\cv\\source\\repos\\bus-reservation\\bus-reservation\\wwwroot\\images\\logo.png",
+      "PackagePath": "staticwebassets\\images\\logo.png"
+    },
+    {
+      "Id": "C:\\Users\\cv\\source\\repos\\bus-reservation\\bus-reservation\\wwwroot\\images\\logo_dark.png",
+      "PackagePath": "staticwebassets\\images\\logo_dark.png"
+    },
+    {
+      "Id": "C:\\Users\\cv\\source\\repos\\bus-reservation\\bus-reservation\\wwwroot\\images\\out",
+      "PackagePath": "staticwebassets\\images"
+    },
+    {
+      "Id": "C:\\Users\\cv\\source\\repos\\bus-reservation\\bus-reservation\\wwwroot\\images\\out(1)",
+      "PackagePath": "staticwebassets\\images"
+    },
+    {
+      "Id": "C:\\Users\\cv\\source\\repos\\bus-reservation\\bus-reservation\\wwwroot\\images\\out(10)",
+      "PackagePath": "staticwebassets\\images"
+    },
+    {
+      "Id": "C:\\Users\\cv\\source\\repos\\bus-reservation\\bus-reservation\\wwwroot\\images\\out(11)",
+      "PackagePath": "staticwebassets\\images"
+    },
+    {
+      "Id": "C:\\Users\\cv\\source\\repos\\bus-reservation\\bus-reservation\\wwwroot\\images\\out(2)",
+      "PackagePath": "staticwebassets\\images"
+    },
+    {
+      "Id": "C:\\Users\\cv\\source\\repos\\bus-reservation\\bus-reservation\\wwwroot\\images\\out(3)",
+      "PackagePath": "staticwebassets\\images"
+    },
+    {
+      "Id": "C:\\Users\\cv\\source\\repos\\bus-reservation\\bus-reservation\\wwwroot\\images\\out(4)",
+      "PackagePath": "staticwebassets\\images"
+    },
+    {
+      "Id": "C:\\Users\\cv\\source\\repos\\bus-reservation\\bus-reservation\\wwwroot\\images\\out(5)",
+      "PackagePath": "staticwebassets\\images"
+    },
+    {
+      "Id": "C:\\Users\\cv\\source\\repos\\bus-reservation\\bus-reservation\\wwwroot\\images\\out(6)",
+      "PackagePath": "staticwebassets\\images"
+    },
+    {
+      "Id": "C:\\Users\\cv\\source\\repos\\bus-reservation\\bus-reservation\\wwwroot\\images\\out(7)",
+      "PackagePath": "staticwebassets\\images"
+    },
+    {
+      "Id": "C:\\Users\\cv\\source\\repos\\bus-reservation\\bus-reservation\\wwwroot\\images\\out(8)",
+      "PackagePath": "staticwebassets\\images"
+    },
+    {
+      "Id": "C:\\Users\\cv\\source\\repos\\bus-reservation\\bus-reservation\\wwwroot\\images\\out(9)",
+      "PackagePath": "staticwebassets\\images"
+    },
+    {
+      "Id": "C:\\Users\\cv\\source\\repos\\bus-reservation\\bus-reservation\\wwwroot\\images\\thumb_66a339934b50c1721973139.png",
+      "PackagePath": "staticwebassets\\images\\thumb_66a339934b50c1721973139.png"
+    },
+    {
+      "Id": "C:\\Users\\cv\\source\\repos\\bus-reservation\\bus-reservation\\wwwroot\\images\\thumb_66a3399ae9b3b1721973146.png",
+      "PackagePath": "staticwebassets\\images\\thumb_66a3399ae9b3b1721973146.png"
+    },
+    {
+      "Id": "C:\\Users\\cv\\source\\repos\\bus-reservation\\bus-reservation\\wwwroot\\images\\thumb_66a339b749cad1721973175.png",
+      "PackagePath": "staticwebassets\\images\\thumb_66a339b749cad1721973175.png"
+    },
+    {
+      "Id": "C:\\Users\\cv\\source\\repos\\bus-reservation\\bus-reservation\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\cv\\source\\repos\\bus-reservation\\bus-reservation\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\cv\\source\\repos\\bus-reservation\\bus-reservation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\cv\\source\\repos\\bus-reservation\\bus-reservation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\cv\\source\\repos\\bus-reservation\\bus-reservation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\cv\\source\\repos\\bus-reservation\\bus-reservation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\cv\\source\\repos\\bus-reservation\\bus-reservation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\cv\\source\\repos\\bus-reservation\\bus-reservation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\cv\\source\\repos\\bus-reservation\\bus-reservation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\cv\\source\\repos\\bus-reservation\\bus-reservation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\cv\\source\\repos\\bus-reservation\\bus-reservation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\cv\\source\\repos\\bus-reservation\\bus-reservation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\cv\\source\\repos\\bus-reservation\\bus-reservation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\cv\\source\\repos\\bus-reservation\\bus-reservation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\cv\\source\\repos\\bus-reservation\\bus-reservation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\cv\\source\\repos\\bus-reservation\\bus-reservation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\cv\\source\\repos\\bus-reservation\\bus-reservation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\cv\\source\\repos\\bus-reservation\\bus-reservation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\cv\\source\\repos\\bus-reservation\\bus-reservation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\cv\\source\\repos\\bus-reservation\\bus-reservation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\cv\\source\\repos\\bus-reservation\\bus-reservation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\cv\\source\\repos\\bus-reservation\\bus-reservation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\cv\\source\\repos\\bus-reservation\\bus-reservation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\cv\\source\\repos\\bus-reservation\\bus-reservation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\cv\\source\\repos\\bus-reservation\\bus-reservation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\cv\\source\\repos\\bus-reservation\\bus-reservation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\cv\\source\\repos\\bus-reservation\\bus-reservation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\cv\\source\\repos\\bus-reservation\\bus-reservation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\cv\\source\\repos\\bus-reservation\\bus-reservation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\cv\\source\\repos\\bus-reservation\\bus-reservation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\cv\\source\\repos\\bus-reservation\\bus-reservation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\cv\\source\\repos\\bus-reservation\\bus-reservation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\cv\\source\\repos\\bus-reservation\\bus-reservation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\cv\\source\\repos\\bus-reservation\\bus-reservation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\cv\\source\\repos\\bus-reservation\\bus-reservation\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\cv\\source\\repos\\bus-reservation\\bus-reservation\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\cv\\source\\repos\\bus-reservation\\bus-reservation\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\cv\\source\\repos\\bus-reservation\\bus-reservation\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\cv\\source\\repos\\bus-reservation\\bus-reservation\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\cv\\source\\repos\\bus-reservation\\bus-reservation\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\cv\\source\\repos\\bus-reservation\\bus-reservation\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\cv\\source\\repos\\bus-reservation\\bus-reservation\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\cv\\source\\repos\\bus-reservation\\bus-reservation\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\cv\\source\\repos\\bus-reservation\\bus-reservation\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\cv\\source\\repos\\bus-reservation\\bus-reservation\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\cv\\source\\repos\\bus-reservation\\bus-reservation\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\cv\\source\\repos\\bus-reservation\\bus-reservation\\wwwroot\\lib\\css\\all.min.css",
+      "PackagePath": "staticwebassets\\lib\\css\\all.min.css"
+    },
+    {
+      "Id": "C:\\Users\\cv\\source\\repos\\bus-reservation\\bus-reservation\\wwwroot\\lib\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\cv\\source\\repos\\bus-reservation\\bus-reservation\\wwwroot\\lib\\css\\custom.css",
+      "PackagePath": "staticwebassets\\lib\\css\\custom.css"
+    },
+    {
+      "Id": "C:\\Users\\cv\\source\\repos\\bus-reservation\\bus-reservation\\wwwroot\\lib\\css\\daterangepicker.css",
+      "PackagePath": "staticwebassets\\lib\\css\\daterangepicker.css"
+    },
+    {
+      "Id": "C:\\Users\\cv\\source\\repos\\bus-reservation\\bus-reservation\\wwwroot\\lib\\css\\flaticon.css",
+      "PackagePath": "staticwebassets\\lib\\css\\flaticon.css"
+    },
+    {
+      "Id": "C:\\Users\\cv\\source\\repos\\bus-reservation\\bus-reservation\\wwwroot\\lib\\css\\iziToast.min.css",
+      "PackagePath": "staticwebassets\\lib\\css\\iziToast.min.css"
+    },
+    {
+      "Id": "C:\\Users\\cv\\source\\repos\\bus-reservation\\bus-reservation\\wwwroot\\lib\\css\\iziToast_custom.css",
+      "PackagePath": "staticwebassets\\lib\\css\\iziToast_custom.css"
+    },
+    {
+      "Id": "C:\\Users\\cv\\source\\repos\\bus-reservation\\bus-reservation\\wwwroot\\lib\\css\\line-awesome.min.css",
+      "PackagePath": "staticwebassets\\lib\\css\\line-awesome.min.css"
+    },
+    {
+      "Id": "C:\\Users\\cv\\source\\repos\\bus-reservation\\bus-reservation\\wwwroot\\lib\\css\\main.css",
+      "PackagePath": "staticwebassets\\lib\\css\\main.css"
+    },
+    {
+      "Id": "C:\\Users\\cv\\source\\repos\\bus-reservation\\bus-reservation\\wwwroot\\lib\\css\\select2.min.css",
+      "PackagePath": "staticwebassets\\lib\\css\\select2.min.css"
+    },
+    {
+      "Id": "C:\\Users\\cv\\source\\repos\\bus-reservation\\bus-reservation\\wwwroot\\lib\\css\\slick.css",
+      "PackagePath": "staticwebassets\\lib\\css\\slick.css"
+    },
+    {
+      "Id": "C:\\Users\\cv\\source\\repos\\bus-reservation\\bus-reservation\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\cv\\source\\repos\\bus-reservation\\bus-reservation\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\cv\\source\\repos\\bus-reservation\\bus-reservation\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\cv\\source\\repos\\bus-reservation\\bus-reservation\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\cv\\source\\repos\\bus-reservation\\bus-reservation\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\cv\\source\\repos\\bus-reservation\\bus-reservation\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\cv\\source\\repos\\bus-reservation\\bus-reservation\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\cv\\source\\repos\\bus-reservation\\bus-reservation\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\cv\\source\\repos\\bus-reservation\\bus-reservation\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\cv\\source\\repos\\bus-reservation\\bus-reservation\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\cv\\source\\repos\\bus-reservation\\bus-reservation\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\cv\\source\\repos\\bus-reservation\\bus-reservation\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "C:\\Users\\cv\\source\\repos\\bus-reservation\\bus-reservation\\wwwroot\\lib\\js\\1eq2tap1m",
+      "PackagePath": "staticwebassets\\lib\\js"
+    },
+    {
+      "Id": "C:\\Users\\cv\\source\\repos\\bus-reservation\\bus-reservation\\wwwroot\\lib\\js\\YXRNNTO7ZBAMFBH67UUE5M",
+      "PackagePath": "staticwebassets\\lib\\js"
+    },
+    {
+      "Id": "C:\\Users\\cv\\source\\repos\\bus-reservation\\bus-reservation\\wwwroot\\lib\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\cv\\source\\repos\\bus-reservation\\bus-reservation\\wwwroot\\lib\\js\\daterangepicker.min.js",
+      "PackagePath": "staticwebassets\\lib\\js\\daterangepicker.min.js"
+    },
+    {
+      "Id": "C:\\Users\\cv\\source\\repos\\bus-reservation\\bus-reservation\\wwwroot\\lib\\js\\emojione.min.js",
+      "PackagePath": "staticwebassets\\lib\\js\\emojione.min.js"
+    },
+    {
+      "Id": "C:\\Users\\cv\\source\\repos\\bus-reservation\\bus-reservation\\wwwroot\\lib\\js\\en.js",
+      "PackagePath": "staticwebassets\\lib\\js\\en.js"
+    },
+    {
+      "Id": "C:\\Users\\cv\\source\\repos\\bus-reservation\\bus-reservation\\wwwroot\\lib\\js\\iziToast.min.js",
+      "PackagePath": "staticwebassets\\lib\\js\\iziToast.min.js"
+    },
+    {
+      "Id": "C:\\Users\\cv\\source\\repos\\bus-reservation\\bus-reservation\\wwwroot\\lib\\js\\jquery-3.7.1.min.js",
+      "PackagePath": "staticwebassets\\lib\\js\\jquery-3.7.1.min.js"
+    },
+    {
+      "Id": "C:\\Users\\cv\\source\\repos\\bus-reservation\\bus-reservation\\wwwroot\\lib\\js\\js",
+      "PackagePath": "staticwebassets\\lib\\js"
+    },
+    {
+      "Id": "C:\\Users\\cv\\source\\repos\\bus-reservation\\bus-reservation\\wwwroot\\lib\\js\\main.js",
+      "PackagePath": "staticwebassets\\lib\\js\\main.js"
+    },
+    {
+      "Id": "C:\\Users\\cv\\source\\repos\\bus-reservation\\bus-reservation\\wwwroot\\lib\\js\\moment.min.js",
+      "PackagePath": "staticwebassets\\lib\\js\\moment.min.js"
+    },
+    {
+      "Id": "C:\\Users\\cv\\source\\repos\\bus-reservation\\bus-reservation\\wwwroot\\lib\\js\\roundtrip.js",
+      "PackagePath": "staticwebassets\\lib\\js\\roundtrip.js"
+    },
+    {
+      "Id": "C:\\Users\\cv\\source\\repos\\bus-reservation\\bus-reservation\\wwwroot\\lib\\js\\select2.min.js",
+      "PackagePath": "staticwebassets\\lib\\js\\select2.min.js"
+    },
+    {
+      "Id": "C:\\Users\\cv\\source\\repos\\bus-reservation\\bus-reservation\\wwwroot\\lib\\js\\slick.min.js",
+      "PackagePath": "staticwebassets\\lib\\js\\slick.min.js"
+    },
+    {
+      "Id": "C:\\Users\\cv\\source\\repos\\bus-reservation\\bus-reservation\\wwwroot\\lib\\js\\twk-app.js",
+      "PackagePath": "staticwebassets\\lib\\js\\twk-app.js"
+    },
+    {
+      "Id": "C:\\Users\\cv\\source\\repos\\bus-reservation\\bus-reservation\\wwwroot\\lib\\js\\twk-chunk-24d8db78.js",
+      "PackagePath": "staticwebassets\\lib\\js\\twk-chunk-24d8db78.js"
+    },
+    {
+      "Id": "C:\\Users\\cv\\source\\repos\\bus-reservation\\bus-reservation\\wwwroot\\lib\\js\\twk-chunk-2d0b9454.js",
+      "PackagePath": "staticwebassets\\lib\\js\\twk-chunk-2d0b9454.js"
+    },
+    {
+      "Id": "C:\\Users\\cv\\source\\repos\\bus-reservation\\bus-reservation\\wwwroot\\lib\\js\\twk-chunk-48f3b594.js",
+      "PackagePath": "staticwebassets\\lib\\js\\twk-chunk-48f3b594.js"
+    },
+    {
+      "Id": "C:\\Users\\cv\\source\\repos\\bus-reservation\\bus-reservation\\wwwroot\\lib\\js\\twk-chunk-4fe9d5dd.js",
+      "PackagePath": "staticwebassets\\lib\\js\\twk-chunk-4fe9d5dd.js"
+    },
+    {
+      "Id": "C:\\Users\\cv\\source\\repos\\bus-reservation\\bus-reservation\\wwwroot\\lib\\js\\twk-chunk-71978bb6.js",
+      "PackagePath": "staticwebassets\\lib\\js\\twk-chunk-71978bb6.js"
+    },
+    {
+      "Id": "C:\\Users\\cv\\source\\repos\\bus-reservation\\bus-reservation\\wwwroot\\lib\\js\\twk-chunk-7c2f6ba4.js",
+      "PackagePath": "staticwebassets\\lib\\js\\twk-chunk-7c2f6ba4.js"
+    },
+    {
+      "Id": "C:\\Users\\cv\\source\\repos\\bus-reservation\\bus-reservation\\wwwroot\\lib\\js\\twk-chunk-bf24a88e.js",
+      "PackagePath": "staticwebassets\\lib\\js\\twk-chunk-bf24a88e.js"
+    },
+    {
+      "Id": "C:\\Users\\cv\\source\\repos\\bus-reservation\\bus-reservation\\wwwroot\\lib\\js\\twk-chunk-common.js",
+      "PackagePath": "staticwebassets\\lib\\js\\twk-chunk-common.js"
+    },
+    {
+      "Id": "C:\\Users\\cv\\source\\repos\\bus-reservation\\bus-reservation\\wwwroot\\lib\\js\\twk-chunk-f1565420.js",
+      "PackagePath": "staticwebassets\\lib\\js\\twk-chunk-f1565420.js"
+    },
+    {
+      "Id": "C:\\Users\\cv\\source\\repos\\bus-reservation\\bus-reservation\\wwwroot\\lib\\js\\twk-chunk-vendors.js",
+      "PackagePath": "staticwebassets\\lib\\js\\twk-chunk-vendors.js"
+    },
+    {
+      "Id": "C:\\Users\\cv\\source\\repos\\bus-reservation\\bus-reservation\\wwwroot\\lib\\js\\twk-main.js",
+      "PackagePath": "staticwebassets\\lib\\js\\twk-main.js"
+    },
+    {
+      "Id": "C:\\Users\\cv\\source\\repos\\bus-reservation\\bus-reservation\\wwwroot\\lib\\js\\twk-runtime.js",
+      "PackagePath": "staticwebassets\\lib\\js\\twk-runtime.js"
+    },
+    {
+      "Id": "C:\\Users\\cv\\source\\repos\\bus-reservation\\bus-reservation\\wwwroot\\lib\\js\\twk-vendor.js",
+      "PackagePath": "staticwebassets\\lib\\js\\twk-vendor.js"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.bus-reservation.props",
+      "PackagePath": "build\\bus-reservation.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.bus-reservation.props",
+      "PackagePath": "buildMultiTargeting\\bus-reservation.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.bus-reservation.props",
+      "PackagePath": "buildTransitive\\bus-reservation.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.bus-reservation.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

@@ -1,0 +1,87 @@
+﻿@* @model bus_reservation.Models.Enquiry *@
+
+@{
+    ViewData["Title"] = "Contact";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<section class="inner-banner bg_img"
+         style="background: url('/images/66868cfc051ae1720093948.jpg') center">
+    <div class="container">
+        <div class="inner-banner-content">
+            <h2 class="title">Contact Us</h2>
+        </div>
+    </div>
+</section>
+
+@if (TempData["SuccessMessage"] != null)
+{
+    <script>
+        window.onload = function () {
+            alert('@TempData["SuccessMessage"]');
+        };
+    </script>
+}
+
+<section class="contact-section padding-top padding-bottom overflow-hidden">
+    <div class="container">
+        <div class="text-center">
+            <h3 class="title mb-2">Let's get in touch</h3>
+            <p class="mb-5">We are open for any suggestion or just to have a chat</p>
+        </div>
+        <div class="row gy-5">
+            <div class="col-lg-6">
+                <div class="contact-form-wrapper">
+                    <h4 class="title mb-4">Enquiry Form</h4>
+                    <form asp-action="SubmitEnquiry" method="post">
+                        @Html.AntiForgeryToken()
+                        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+                        @* <div class="form-group">
+                            <label asp-for="StartingPlace" class="control-label"></label>
+                            <input asp-for="StartingPlace" class="form-control" />
+                            <span asp-validation-for="StartingPlace" class="text-danger"></span>
+                        </div>
+
+                        <div class="form-group">
+                            <label asp-for="DestinationPlace" class="control-label"></label>
+                            <input asp-for="DestinationPlace" class="form-control" />
+                            <span asp-validation-for="DestinationPlace" class="text-danger"></span>
+                        </div>
+
+                        <div class="col-md-12">
+                            <div class="form-group ">
+                                <label asp-for="TravelDate" class="control-label">Travel Date</label>
+                                <input asp-for="TravelDate" type="text" class="form--control date-range"
+                                       placeholder="Departure Date" autocomplete="off" id="date_of_journey" />
+                            </div>
+                            <span asp-validation-for="TravelDate" class="text-danger"></span>
+                        </div>
+
+                        <div class="form-group">
+                            <label asp-for="Email" class="control-label"></label>
+                            <input asp-for="Email" type="email" class="form-control" />
+                            <span asp-validation-for="Email" class="text-danger"></span>
+                        </div> *@
+
+                        <!-- Query Text Box -->
+                        @* <div class="form-group">
+                        <label asp-for="QueryText" class="control-label">Your Query</label>
+                        <textarea asp-for="QueryText" class="form-control" rows="4" placeholder="Enter your query here..."></textarea>
+                        <span asp-validation-for="QueryText" class="text-danger"></span>
+                        </div> *@
+
+                        <div class="form-group">
+                            <input type="submit" value="Save" class="btn btn-primary" />
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="map-wrapper">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d28945.10283301229!2d66.9949245743164!3d24.927373300000014!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb33f90157042d3%3A0x93d609e8bec9a880!2sAptech%20Computer%20Education%20North%20Nazimabad%20Center!5e0!3m2!1sen!2s!4v1727924123000!5m2!1sen!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

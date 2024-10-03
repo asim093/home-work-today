@@ -1,0 +1,89 @@
+﻿@model IEnumerable<bus_reservation.Models.Route>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/AdminLayout.cshtml";
+    var successCreateMessage = TempData["SuccessCreateMessage"] as string;
+    var successEditMessage = TempData["SuccessEditMessage"] as string;
+    int serialNumber = 1;
+}
+
+<div class="container-fluid pt-4 px-4">
+    <h1>Index</h1>
+
+    <p>
+        <a asp-action="Create">Create New</a>
+    </p>
+    @if (!string.IsNullOrEmpty(successCreateMessage))
+    {
+        <div class="alert alert-success alert-dismissible fade show" role="alert">
+            <strong>@successCreateMessage</strong>
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+        </div>
+    }
+    else if (!string.IsNullOrEmpty(successEditMessage))
+    {
+        <div class="alert alert-success alert-dismissible fade show" role="alert">
+            <strong>@successEditMessage</strong>
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+        </div>
+    }
+    <table class="table datatable text-center py-3">
+        <thead>
+            <tr>
+                <th>S.No</th>
+                
+            <th>
+                @Html.DisplayNameFor(model => model.RouteName)
+            </th>
+           
+           
+            <th>
+                @Html.DisplayNameFor(model => model.StartingPlaceNavigation)
+            </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.DestinationPlaceNavigation)
+                </th>
+                <th>
+                        @Html.DisplayNameFor(model => model.Distance)
+                </th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @if (Model != null && Model.Any())
+{
+@foreach (var item in Model) {
+        <tr>
+                        <td>@serialNumber</td>
+            <td>
+                @Html.DisplayFor(modelItem => item.RouteName)
+            </td>
+            
+            
+            <td>
+                @Html.DisplayFor(modelItem => item.StartingPlaceNavigation.LocationName)
+            </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.DestinationPlaceNavigation.LocationName)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Distance)
+                        </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.RouteId">Edit</a> |
+                <a asp-action="Delete" asp-route-id="@item.RouteId">Delete</a>
+            </td>
+        </tr>
+                    serialNumber++;
+                }
+            }
+            else
+            {
+                <tr>
+                    <td colspan="7" class="text-center">No Routes Found</td>
+                </tr>
+            }
+    </tbody>
+</table>
+</div>

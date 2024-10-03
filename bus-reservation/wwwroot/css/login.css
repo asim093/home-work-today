@@ -1,0 +1,83 @@
+﻿/* login.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4; /* Light background color */
+    background: url(https://script.viserlab.com/viserbus/assets/images/frontend/auth/66869002329471720094722.jpg) no-repeat center center fixed;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width:400px;
+    margin: 100px auto; /* Center the container vertically and horizontally */
+    padding: 20px;
+    background-color: #fff; /* White background for the form */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.logo {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+    .logo img {
+        max-width: 200px;
+        height: auto; 
+    }
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block; 
+    margin-bottom: 5px; 
+    font-weight: bold; 
+}
+
+input {
+    width: 100%; 
+    padding: 10px;
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box;
+    transition: border-color 0.3s; 
+}
+
+    input:focus {
+        border-color: #007bff; /* Blue border on focus */
+        outline: none; /* Remove default outline */
+    }
+
+.text-danger {
+    font-size: 12px; /* Smaller font size for error messages */
+    color: red; /* Red color for error messages */
+}
+
+.btn {
+    background-color: #007bff; /* Blue background */
+    color: #fff; /* White text */
+    border: none; /* Remove border */
+    padding: 10px; /* Padding for button */
+    border-radius: 4px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    font-size: 16px; /* Larger font size */
+    width: 100%; /* Full width button */
+    transition: background-color 0.3s; /* Transition for background color */
+}
+
+    .btn:hover {
+        background-color: #0056b3; /* Darker blue on hover */
+    }
+
+@media (max-width: 480px) {
+    .container {
+        padding: 15px; /* Less padding on small screens */
+    }
+
+    .btn {
+        font-size: 14px; /* Smaller font size on small screens */
+    }
+}

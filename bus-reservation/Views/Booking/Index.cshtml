@@ -1,0 +1,65 @@
+﻿@model IEnumerable<bus_reservation.Models.BookingViewModel>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/AdminLayout.cshtml";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>@Html.DisplayNameFor(model => model.CustomerName)</th>
+            <th>@Html.DisplayNameFor(model => model.CustomerAge)</th>
+            <th>@Html.DisplayNameFor(model => model.CustomerContact)</th>
+            <th>@Html.DisplayNameFor(model => model.CustomerEmail)</th>
+            <th>@Html.DisplayNameFor(model => model.BookingDate)</th>
+            <th>@Html.DisplayNameFor(model => model.SeatNumber)</th>
+            <th>@Html.DisplayNameFor(model => model.Fare)</th>
+            <th>@Html.DisplayNameFor(model => model.StatusBooking)</th>
+            <th>@Html.DisplayNameFor(model => model.CreatedAt)</th>
+            <th>Bus Code</th>
+            <th>Bus Type Name</th>
+            <th>Route Name</th>
+            <th>Starting Place</th>
+            <th>Destination Place</th>
+            <th>Distance</th>
+            <th>Managed By</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@Html.DisplayFor(modelItem => item.CustomerName)</td>
+                <td>@Html.DisplayFor(modelItem => item.CustomerAge)</td>
+                <td>@Html.DisplayFor(modelItem => item.CustomerContact)</td>
+                <td>@Html.DisplayFor(modelItem => item.CustomerEmail)</td>
+                <td>@Html.DisplayFor(modelItem => item.BookingDate)</td>
+                <td>@Html.DisplayFor(modelItem => item.SeatNumber)</td>
+                <td>@Html.DisplayFor(modelItem => item.Fare)</td>
+                <td>@Html.DisplayFor(modelItem => item.StatusBooking)</td>
+                <td>@Html.DisplayFor(modelItem => item.CreatedAt)</td>
+                <td>@Html.DisplayFor(modelItem => item.BusCode)</td>
+                <td>@Html.DisplayFor(modelItem => item.BusTypeName)</td>
+                <td>@Html.DisplayFor(modelItem => item.RouteName)</td>
+                <td>@Html.DisplayFor(modelItem => item.StartingPlace)</td>
+                <td>@Html.DisplayFor(modelItem => item.DestinationPlace)</td>
+                <td>@Html.DisplayFor(modelItem => item.Distance)</td>
+                <td>@Html.DisplayFor(modelItem => item.BookingManagedBy)</td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.BookingId">Edit</a> |
+                    <a asp-action="Details" asp-route-id="@item.BookingId">Details</a> |
+                    <a asp-action="Delete" asp-route-id="@item.BookingId">Delete</a> |
+                    <a asp-action="Ticket" asp-route-id="@item.BookingId">Ticket</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

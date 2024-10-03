@@ -1,0 +1,361 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<link rel="stylesheet" href="~/lib/css/flaticon.css" />
+<link rel="stylesheet" href="~/lib/css/line-awesome.min.css" />
+
+<!-- Banner Section Starts Here -->
+<section class="banner-section" style="background: url('/images/banner-bg.png') repeat-x bottom;">
+    <div class="container">
+        <div class="banner-wrapper">
+            <div class="banner-content">
+                <h1 class="title">Book Your Ticket Online, Quickly and Securely</h1>
+                <a href="tickets.html" class="cmn--btn">Book Now</a>
+            </div>
+
+            <div class="ticket-form-wrapper">
+                <div class="ticket-header nav-tabs nav border-0">
+                    <h4 class="title">Choose Your Ticket</h4>
+                </div>
+                <div class="tab-content">
+                    <div class="tab-pane fade show active" id="one-way">
+                        <form action="" class="ticket-form row g-3 justify-content-center m-0">
+                            <div class="col-md-6">
+                                <div class="form--group d-flex align-items-center">
+                                    <i class="fa-solid fa-location-arrow me-2"></i> <!-- Font Awesome Icon -->
+                                    <select class="form--control select2" name="pickup" id="pickup">
+                                        <option value="">Pickup Point</option>
+                                        <option value="1">Kansas</option>
+                                        <option value="2">Dallas</option>
+                                        <option value="3">Wichita</option>
+                                        <option value="4">Emi Davenport</option>
+                                        <option value="5">Echo Bass</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form--group d-flex align-items-center">
+                                    <i class="las la-map-marker me-2"></i> <!-- Line Awesome Icon -->
+                                    <select name="destination" class="form--control select2" id="destination">
+                                        <option value="">Dropping Point</option>
+                                        <option value="1">Kansas</option>
+                                        <option value="2">Dallas</option>
+                                        <option value="3">Wichita</option>
+                                        <option value="4">Emi Davenport</option>
+                                        <option value="5">Echo Bass</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="form--group d-flex align-items-center">
+                                    <i class="las la-calendar-check me-2"></i> <!-- Line Awesome Icon -->
+                                    <input type="text" class="form--control date-range" name="date_of_journey"
+                                           placeholder="Departure Date" autocomplete="off" id="date_of_journey" />
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form--group">
+                                    <button class="w-100 btn btn--base">Find Tickets</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="shape">
+        <img src="~/images/66868879268741720092793.png" alt="background" />
+    </div>
+</section>
+
+
+<!-- Working Process Section Starts Here -->
+<section class="working-process padding-top padding-bottom">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-6 col-md-10">
+                <div class="section-header text-center">
+                    <h2 class="title">Book Your Ticket in 3 Easy Steps</h2>
+                    <p>
+                        Discover the simple process of booking your bus ticket. Follow these quick steps and start your journey with ease!
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="row g-4 gy-md-5 justify-content-center">
+            <!-- Step 1 -->
+            <div class="col-lg-4 col-md-6 col-sm-10">
+                <div class="working-process-item">
+                    <div class="thumb-wrapper">
+                        <span>01</span>
+                        <div class="thumb">
+                            <i class="fa-solid fa-magnifying-glass"></i> <!-- Font Awesome Icon -->
+                        </div>
+                    </div>
+                    <div class="content">
+                        <h4 class="title">Search Your Bus</h4>
+                        <p>
+                            Enter your origin, destination, and journey dates, then search for available buses.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Step 2 -->
+            <div class="col-lg-4 col-md-6 col-sm-10">
+                <div class="working-process-item">
+                    <div class="thumb-wrapper">
+                        <span>02</span>
+                        <div class="thumb">
+                            <i class="fa-solid fa-ticket-simple"></i> <!-- Font Awesome Icon -->
+                        </div>
+                    </div>
+                    <div class="content">
+                        <h4 class="title">Choose Your Ticket</h4>
+                        <p>
+                            Select your preferred bus and seat from the available options for your journey.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Step 3 -->
+            <div class="col-lg-4 col-md-6 col-sm-10">
+                <div class="working-process-item">
+                    <div class="thumb-wrapper">
+                        <span>03</span>
+                        <div class="thumb">
+                            <i class="fa-solid fa-money-bill-1-wave"></i> <!-- Font Awesome Icon -->
+                        </div>
+                    </div>
+                    <div class="content">
+                        <h4 class="title">Make Payment</h4>
+                        <p>
+                            Complete the booking by paying securely online for a smooth, hassle-free journey.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Working Process Section Ends Here -->
+<!-- Our Ameninies Section Starts Here -->
+<section class="amenities-section padding-bottom">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-6 col-md-10">
+                <div class="section-header text-center">
+                    <h2 class="title">Our Amenities</h2>
+                    <p>
+                        Explore the top amenities we offer to ensure your bus journey is comfortable and enjoyable. Choose your bus and enjoy a great trip with us!
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="amenities-wrapper">
+            <div class="amenities-slider slick-initialized slick-slider">
+                <div class="slick-list draggable">
+                    <div class="slick-track" style="opacity: 1; width: 864px; transform: translate3d(0px, 0px, 0px);">
+
+                        <!-- Amenity 1: Wifi -->
+                        <div class="single-slider slick-slide slick-current slick-active" style="width: 216px;" tabindex="0" data-slick-index="0" aria-hidden="false">
+                            <div class="amenities-item">
+                                <div class="thumb">
+                                    <i class="fas fa-wifi"></i> <!-- Font Awesome Icon -->
+                                </div>
+                                <h6 class="title">Wifi</h6>
+                            </div>
+                        </div>
+
+                        <!-- Amenity 2: Pillow -->
+                        <div class="single-slider slick-slide slick-active" style="width: 216px;" tabindex="0" data-slick-index="1" aria-hidden="false">
+                            <div class="amenities-item">
+                                <div class="thumb">
+                                    <i class="fa-solid fa-bed"></i> <!-- Font Awesome Icon -->
+                                </div>
+                                <h6 class="title">Pillow</h6>
+                            </div>
+                        </div>
+
+                        <!-- Amenity 3: Water Bottle -->
+                        <div class="single-slider slick-slide slick-active" style="width: 216px;" tabindex="0" data-slick-index="2" aria-hidden="false">
+                            <div class="amenities-item">
+                                <div class="thumb">
+                                    <i class="fa-solid fa-prescription-bottle"></i> <!-- Font Awesome Icon -->
+                                </div>
+                                <h6 class="title">Water Bottle</h6>
+                            </div>
+                        </div>
+
+                        <!-- Amenity 4: Soft Drinks -->
+                        <div class="single-slider slick-slide slick-active" style="width: 216px;" tabindex="0" data-slick-index="3" aria-hidden="false">
+                            <div class="amenities-item">
+                                <div class="thumb">
+                                    <i class="fas fa-wine-glass-alt"></i> <!-- Font Awesome Icon -->
+                                </div>
+                                <h6 class="title">Soft Drinks</h6>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Our Ameninies Section Ends Here -->
+<!-- Section Starts Here -->
+@* <section class="padding-bottom padding-top testimonial-section">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-6 col-md-8">
+                <div class="section-header text-center">
+                    <h2 class="title">Customer Reviews</h2>
+                    <p>
+                        See why travelers love our services. Book a bus and enjoy a seamless journey with us.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="row justify-content-center gy-5">
+            <div class="col-lg-8 col-md-10">
+                <div class="testimonial-wrapper">
+                    <div class="testimonial-slider slick-initialized slick-slider slick-dotted">
+                        <div class="slick-list draggable" style="padding: 0px 50px">
+                            <div class="slick-track" style="opacity: 1; width: 4776px; transform: translate3d(-1592px, 0px, 0px);">
+                                <div class="single-slider slick-slide slick-cloned" style="width: 796px;">
+                                    <div class="testimonial-item">
+                                        <div class="content">
+                                            <p>
+                                                The service was fantastic! The bus was comfortable, and the journey was smooth. I would definitely recommend this company to anyone traveling long distances.
+                                            </p>
+                                        </div>
+                                        <div class="thumb-wrapper">
+                                            <div class="thumb">
+                                                <img src="~/images/review1.jpg" alt="review1" />
+                                            </div>
+                                            <h5 class="name">John Doe</h5>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="single-slider slick-slide" style="width: 796px;">
+                                    <div class="testimonial-item">
+                                        <div class="content">
+                                            <p>
+                                                Had an amazing experience! The staff was friendly, and the bus was clean. I’m happy I chose this service for my trip.
+                                            </p>
+                                        </div>
+                                        <div class="thumb-wrapper">
+                                            <div class="thumb">
+                                                <img src="~/images/review2.jpg" alt="review2" />
+                                            </div>
+                                            <h5 class="name">Jane Smith</h5>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <ul class="slick-dots" role="tablist">
+                            <li class="slick-active" role="presentation">
+                                <button type="button" role="tab" aria-controls="slick-slide10" aria-label="1 of 2" tabindex="0" aria-selected="true">1</button>
+                            </li>
+                            <li role="presentation">
+                                <button type="button" role="tab" aria-controls="slick-slide11" aria-label="2 of 2" tabindex="-1">2</button>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section> *@
+
+
+<!-- Blog Section Starts Here -->
+<section class="blog-section padding-top padding-bottom">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-6 col-md-10">
+                <div class="section-header text-center">
+                    <h2 class="title">Latest Articles</h2>
+                    <p>Explore insights, tips, and stories from our travel experts. Stay informed with our recent blog posts.</p>
+                </div>
+            </div>
+        </div>
+        <div class="row justify-content-center g-4">
+            <div class="col-lg-4 col-md-6 col-sm-10">
+                <div class="post-item">
+                    <div class="post-thumb">
+                        <img src="~/images/thumb_66a339934b50c1721973139.png" alt="blog post image" />
+                    </div>
+                    <div class="post-content">
+                        <ul class="post-meta">
+                            <li>
+                                <span class="date"><i class="las la-calendar-check"></i>26 Jul 2024</span>
+                            </li>
+                        </ul>
+                        <h4 class="title">
+                            <a href="https://script.viserlab.com/viserbus/blog/the-ultimate-guide-to-bus-travel">
+                                The Ultimate Guide to Bus Travel
+                            </a>
+                        </h4>
+                        <p>
+                            Discover essential tips and tricks for a seamless bus travel experience, from booking to arrival.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-10">
+                <div class="post-item">
+                    <div class="post-thumb">
+                        <img src="~/images/thumb_66a3399ae9b3b1721973146.png" alt="blog post image" />
+                    </div>
+                    <div class="post-content">
+                        <ul class="post-meta">
+                            <li>
+                                <span class="date"><i class="las la-calendar-check"></i>26 Jul 2024</span>
+                            </li>
+                        </ul>
+                        <h4 class="title">
+                            <a href="https://script.viserlab.com/viserbus/blog/top-10-bus-routes-in-the-world">
+                                Top 10 Breathtaking Bus Routes in the World
+                            </a>
+                        </h4>
+                        <p>
+                            Explore the most scenic bus routes around the globe that offer stunning views and unforgettable experiences.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-10">
+                <div class="post-item">
+                    <div class="post-thumb">
+                        <img src="~/images/thumb_66a339b749cad1721973175.png" alt="blog post image" />
+                    </div>
+                    <div class="post-content">
+                        <ul class="post-meta">
+                            <li>
+                                <span class="date"><i class="las la-calendar-check"></i>26 Jul 2024</span>
+                            </li>
+                        </ul>
+                        <h4 class="title">
+                            <a href="https://script.viserlab.com/viserbus/blog/how-to-pack-for-a-bus-journey">
+                                How to Pack Smart for Your Bus Journey
+                            </a>
+                        </h4>
+                        <p>
+                            Learn the best packing tips to ensure comfort and convenience during your bus travels.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Blog Section Ends Here -->

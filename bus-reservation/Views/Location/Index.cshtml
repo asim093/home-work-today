@@ -1,0 +1,65 @@
+﻿@model IEnumerable<bus_reservation.Models.Location>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/AdminLayout.cshtml";
+    var successCreateMessage = TempData["SuccessCreateMessage"] as string;
+    var successEditMessage = TempData["SuccessEditMessage"] as string;
+    int serialNumber = 1;
+}
+<div class="container-fluid pt-4 px-4">
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+@if (!string.IsNullOrEmpty(successCreateMessage))
+{
+    <div class="alert alert-success alert-dismissible fade show" role="alert">
+        <strong>@successCreateMessage</strong>
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    </div>
+}
+else if (!string.IsNullOrEmpty(successEditMessage))
+{
+    <div class="alert alert-success alert-dismissible fade show" role="alert">
+        <strong>@successEditMessage</strong>
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    </div>
+}
+    <table class="table datatable text-center py-3">
+        <thead>
+            <tr>
+                <th>S.No</th>
+            <th>
+                Location Name
+            </th>
+            <th>Action</th>
+        </tr>
+    </thead>
+    <tbody>
+        @if (Model != null && Model.Any())
+{
+@foreach (var item in Model) {
+        <tr>
+                        <td>@serialNumber</td>
+            <td>
+                @Html.DisplayFor(modelItem => item.LocationName)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.LocationId">Edit</a> |
+                <a asp-action="Delete" asp-route-id="@item.LocationId">Delete</a>
+            </td>
+        </tr>
+                    serialNumber++;
+                }
+            }
+            else
+            {
+                <tr>
+                    <td colspan="3" class="text-center">No Location Found</td>
+                </tr>
+            }
+    </tbody>
+</table>
+</div>
